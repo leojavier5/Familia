@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,67 +12,65 @@
   </head>
 
   <body>
-    <tbody>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Menu</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <body style="background-color: rgb(147, 221, 222)"></body>
+    <header>
+      <div class="barraNav">
+        <ul id="navBarra" class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page-1" href="./index.html"
+              >Portal</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./calendario.html"
+              >Calendario | Vacunación</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./controles.html">Controles</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-disabled="true"
+              href="./medicamentos.html"
+              >Medicamentos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-disabled="true">Tips</a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </nav>
+    <main>
       <div class="card w-50">
         <div class="card-body">
-          <h5 class="Informacion Medicamento">Card title</h5>
+          <h5 class="card-title">Informacion Medicamento</h5>
+
           <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
+            Aqui encontraras Informacion sobre los tipos de medicamentos más
+            frecuentes.
           </p>
-          <a href="#" class="btn btn-primary">Button</a>
         </div>
       </div>
-    </tbody>
-  </body>
 
-  <footer></footer>
+      <img src="./public/1.jpeg" alt="Imagen de ejemplo" />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem
+        veritatis iste delectus sunt, rerum commodi aliquid ab consequuntur modi
+        eius dolores iusto ut illum explicabo doloremque dolor, esse excepturi
+        architecto!
+      </p>
+
+      <h2>Link</h2>
+      <a target="_blank" href="http://www.google.com">Google</a>
+
+      <hr />
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
